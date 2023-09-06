@@ -4,7 +4,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { useRouter } from 'next/router';
 
-const LOGO = '/images/jp_logo.png';
+const LOGO = '/logo/jp_logo.png';
 
 const Navigation = () => {
   const router = useRouter();

@@ -1,7 +1,7 @@
 import React, {useState, useRef, useEffect} from "react";
 import styles from './ImageCarousel.module.scss'
 
-const INTERVAL = 3000; // 5 seconds
+const INTERVAL = 5000; // 5 seconds
 
 
 const ImageCarousel: React.FC <{ images: string[] }> = ({ images }) => {
