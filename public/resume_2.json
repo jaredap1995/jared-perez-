@@ -27,8 +27,8 @@
 ],
     "experience": [
       {
-        "company": "Jared Perez Bio-Analytics for Health and Performance",
-        "title": "Owner",
+        "company": "Owner",
+        "title": "Jared Perez Bio-Analytics for Health and Performance",
         "startDate": "Jan 2021",
         "endDate": "Present",
         "responsibilities": [
@@ -46,8 +46,8 @@
             ]
       },
       {
-        "company": "Auckland University of Technology",
-        "title": "Data Science in Digital Health Researcher",
+        "company": "Data Science Researcher", 
+        "title": "Auckland University of Technology",
         "startDate": "May 2022",
         "endDate": "May 2023",
         "responsibilities": [
@@ -58,8 +58,8 @@
         ]
       },
       {
-        "company": "Auckland University of Technology",
-        "title": "Exercise Physiology and Redox Biology Researcher",
+        "company": "Exercise Physiology and Redox Biology Researcher", 
+        "title": "Auckland University of Technology",
         "startDate": "Jan 2021",
         "endDate": "Oct 2022",
         "responsibilities": [
@@ -71,8 +71,8 @@
         ]
       },
       {
-        "company": "EXOS @ Google",
-        "title": "Performance Coach",
+        "company": "Performance Coach",
+        "title": "Google",
         "startDate": "September 2019",
         "endDate": "January 2021",
         "responsibilities": [ 
@@ -87,8 +87,8 @@
         ]
       },
       {
-        "company": "Newcastle Falcons Rugby Club",
-        "title": "Data Analyst",
+        "company": "Data Analyst", 
+        "title": "Newcastle Falcons Rugby Club",
         "startDate": "April 2018",
         "endDate": "September 2019",
         "responsibilities": [
@@ -99,8 +99,8 @@
         ] 
       },
       {
-        "company": "24 Hour Fitness",
-        "title": "Fitness Manager",
+        "company": "Fitness Manager",
+        "title": "24 Hour Fitness",
         "startDate": "April 2016",
         "endDate": "June 2018",
         "responsibilities": [

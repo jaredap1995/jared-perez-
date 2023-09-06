@@ -31,7 +31,8 @@ const Skills = () => {
     return (
         <>
         <div id = 'skills' className={`${styles.information} ${isVisible ? styles.visible : ''}`}>
-            <h1 className={styles.Title}> Skills </h1>
+        <h1 className={styles.Title}> Skills </h1>
+            <div className={styles.skillContainer}>
             <div className={styles.pRel}> 
                 <div className={styles.verticalLine}></div>
                 <div className={styles.verticalLine2}></div>
@@ -56,6 +57,7 @@ const Skills = () => {
                         />
                     }
                 />
+            </div>
             </div>
         </div>
         </>
