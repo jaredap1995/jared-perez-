@@ -96,6 +96,7 @@ export const getStaticProps = async ({ params }: getStaticPropsParams) => {
   const source = fs.readFileSync(postFilePath);
 
   const { content, data } = matter(source);
+  data.created = new Date(data.created).toISOString()
 
   const mdxSource = await renderToString(content, {
     components,
