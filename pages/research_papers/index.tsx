@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import papers from './papers_data';
+import papers from '../../data/papers_data';
 import styles from './index.module.scss';
 
 interface Paper {
