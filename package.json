@@ -12,6 +12,7 @@
     "@babel/core": "^7.12.16",
     "@babel/preset-react": "^7.12.13",
     "@mdx-js/loader": "^0.15.4",
+    "@next/bundle-analyzer": "^13.4.19",
     "@next/mdx": "^10.0.7",
     "axios": "^0.21.1",
     "gray-matter": "^4.0.2",
