@@ -1,0 +1,24 @@
+@import '@variables';
+
+@media screen and (min-width: $mobile-break) {
+  .leftColumn {
+    width: 30%;
+    display: inline-block;
+    // font-size: 1.2rem;
+    vertical-align: top;
+  }
+
+  .rightColumn {
+    width: 69%;
+    display: inline-block;
+    font-size: 1.1rem;
+  }
+}
+
+@media screen and (max-width: $mobile-break) {
+  .leftColumn {
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+    vertical-align: top;
+  }
+}

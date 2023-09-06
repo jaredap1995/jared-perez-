@@ -1,0 +1,160 @@
+{
+    "education": [
+    {
+        "college": "UC-Berkeley",
+        "degree": "Data Science & Analytics Certificate",
+        "startDate": "February 2023",
+        "endDate": "August 2023"
+    },
+    {
+        "college": "Auckland University of Technology",
+        "degree": "PhD in Data Science & Digital Health (Not Completed)",
+        "startDate": "January 2021",
+        "endDate": "July 2023 (Withdrawn)"
+    },
+    {
+        "college": "Northumbria University",
+        "degree": "M.S.c in Exercise Physiology",
+        "startDate": "April 2018",
+        "endDate": "September 2019"
+    },
+    {
+        "college": "University of Puget Sound",
+        "degree": "B.S. in Exercise Science",
+        "startDate": "August 2013",
+        "endDate": "May 2017"
+      }
+],
+    "experience": [
+      {
+        "company": "Jared Perez Bio-Analytics for Health and Performance",
+        "title": "Owner",
+        "startDate": "Jan 2021",
+        "endDate": "Present",
+        "responsibilities": [
+            {
+                "text": ["Founded my own bioanalytics company that focuses on quantiative and qualitative analytics and physiological monitoring.",
+                "I manage and run all elements of the business including exercise prescription, data collection, data analysis, database management, and website development.",
+                "Deployed ensemble model providing decision support to sport coaches reducing 8 hours of admin time per week.",
+                "The impetus for my company was an absence of data driven approaches to resistance training prescription as outlined in my academic publication co-authored by Dr. Adam Storey and Dr. Eric Helms."],
+                "link": {
+                    "url": "/pdf/exercise_monitoring_.pdf",
+                    "label": "paper",
+                    "filename": "exercise_monitoring_.pdf"
+                }
+            }
+            ]
+      },
+      {
+        "company": "Auckland University of Technology",
+        "title": "Data Science in Digital Health Researcher",
+        "startDate": "May 2022",
+        "endDate": "May 2023",
+        "responsibilities": [
+          "Spearheaded the development of AUT's first Human Digital Twin Project.",
+          "Developed high volume data pipelines to highlight reasons behind delayed processing time for 25% of ACC concussion patients.",
+          "Built deep learning CNNs to diagnose severity of head trauma and prioritize patient follow ups from imaging data.",
+          "Built LSTM-RNNs from electronic health records to predict hospital readmission causes."          
+        ]
+      },
+      {
+        "company": "Auckland University of Technology",
+        "title": "Exercise Physiology and Redox Biology Researcher",
+        "startDate": "Jan 2021",
+        "endDate": "Oct 2022",
+        "responsibilities": [
+          "Investigated the role of ovarian hormone fluctutations throughout the menstrual cycle on exercise redox biology, exercise performance, and adaptations",
+          "Authored literature reviews focused on the role of exercise redox biology in health and disease and women's health",
+          "Investigated physiological profiles of endurance athletes at High Performance Sport New Zealand as part of larger Sports Performance Research In New Zealand (SPRINZ) group.",
+          "Profiled changes in ventilatory threshold during steady state endurance cycling before and after fatiguing sprints to optimize endurance prescriptions.",
+          "Coordinated research studies using various equipment including force plates, metabolic cart, and isokinetic dynamometer."
+        ]
+      },
+      {
+        "company": "EXOS @ Google",
+        "title": "Performance Coach",
+        "startDate": "September 2019",
+        "endDate": "January 2021",
+        "responsibilities": [ 
+          "Health and Wellness site manager for the third largest Google (San Francisco).", 
+          "Engineered client engagement metrics that highlighted opportunities for modified health offerings leading to increased Googler interaction with services by 12% pre-pandemic.",
+          "Created and executed strength and conditioning programs within a variety of spaces that includes anywhere from 1 to 20+ individuals within a given session.",
+          "Guiding users within the Google community from both a 1:1 or group setting to reach their own respective health and wellness goals by navigating them through a variety of services offered.",
+          "Developed new health initiatives within the SF campus including ‘walkathon,’ SFO run club, and inter-Google team bootcamp competitions that increased engagement with fitness offerings by 12% pre-pandemic.", 
+          "Rapidly adjusted to a virtual working environment and developed brand new digital health and fitness offerings for Google employees that still service between 10-22% of the Google workforce despite returning to office.",
+          "Linked internal SQL database with Tableau dashboards to dynamically track engagement changes at site.",
+          "Scripted applications using Python frameworks (Pandas, Numpy) to clean and organize large data sets for data visualization platforms."
+        ]
+      },
+      {
+        "company": "Newcastle Falcons Rugby Club",
+        "title": "Data Analyst",
+        "startDate": "April 2018",
+        "endDate": "September 2019",
+        "responsibilities": [
+          "Prepared weekly health and performance dashboards using GPS, accelerometer, heart rate, and other biometric data in Excel to provide health and performance insights to coaches and other shareholders.",
+          "Managed internal research projects to assess influence of training prescriptions and loading parameters on specific physiological qualities of interest including reactive strength index and cardiorespiratory improvements.",
+          "Developed and coached athletes through a new data driven return to play strategy that reduced recurring injuries by 16%.",
+          "Managed team PostgreSQL instance containing thousands of physiological data parameters."
+        ] 
+      },
+      {
+        "company": "24 Hour Fitness",
+        "title": "Fitness Manager",
+        "startDate": "April 2016",
+        "endDate": "June 2018",
+        "responsibilities": [
+          "Part of management team that opened Tacoma club location in 2017 with a first month’s fitness profit of 217%",
+          "Led a team of 12 personal trainers, providing ongoing training and regular performance evaluations for staff to ensure consistent delivery of high-quality fitness services and attainment of sales goals.",
+          "Highest Grossing personal trainer in the club for 8 consecutive months. Grossed over $12K for all months from November 2017 - March 2018",
+          "Leading coach on a team of 12 personal trainers by providing high-quality fitness services and attainment of sales goals."
+        ]  
+      }
+    ],
+    "Projects":
+    [
+      {
+        "title": "Jared Perez Bio-Analytics Web Application",
+        "impact": [
+          "Built a web application that could be used to automate my exercise prescriptions and analysis for my small business.",
+          "Allowed users to track progress over time, visualize training, and utilize openAI API to create custom workouts.",
+          "Built out a designated ensemble model as a decision support system to reduce my prescription time."
+        ],
+        "technologies_used": "Python, SWE, SQL, Tensorflow, Scikit Learn, Pandas, Tableau",
+        "link": "https://github.com/jaredap1995/Data-Pipeline-and-Web-App-Exercise-Prescriptions"
+      },
+      {
+        "title": "Wearable Technologies Web Scraping and NLP Based Product Sentiment Analysis",
+        "impact": [
+          "Built a custom web scraper using Javascript to scrape thousands of Amazon product reviews from wearable technologies for product and market research using various NLP techniques.",
+          "The project aimed to highlight important market trends and highlight relevant features within the wearable space.",
+          "Insights included the greatest emphasis on battery life and health tracking features followed further down the list by features like phone functionality and product aesthetics.",
+          "Garmin watches were ranked the highest across almost all metrics, followed closely by Apple Watches. Budget watches like the Amazfit were generally well reviewed. Worst reviewed products were Alphabet owned including Fitbit and Pixel Watch."
+        ],
+        "technologies_used": "SQL, Postgres, Javascript, Python, LDA Analysis, ANCOVA, Dynamic Topic Modelling",
+        "link": "https://github.com/jaredap1995/web-scraping-and-wearable-sentiment-analysis" 
+      },
+      {
+        "title": "Computer Vision and Dense Optical Flow in the Quantification of Velocity and Force Production",
+        "impact":[
+          "Quantifying force production without the use of specialized and expensive sport software like force plates.",
+          "Using Dense optical flow to measure velocity via the change in pixel distance between frames",
+          "Developing approach to get accurate distance and velcoity meausre with respect to user size without user input (height)",
+          "The aim of the project is for the computer vision approach be to estimate neuromuscular fatigue and/or technical deterioration over the course of subseqeunt exercises."
+        ],
+        "technologies_used": "PyTorch, Django, Motion Trajectories, CNN, Dense Optical Flow, Clustering, Video/Image Processing",
+        "link": "https://github.com/jaredap1995/CV-Dense_Optical_Flow"
+      },
+      {
+        "title": "Unlabeled Wearable Signal Processing and Alignment",
+        "impact":[
+          "Developed a labeling pipeline to assign activity labels to accelerometer signals given changes in y-crossings and differences between signal amplitude.",
+          "Inspired by the work of one of my PhD supervisors Dr. Brian Russell and his PhD predicting fatigue with a single sensor.",
+          "Can be used in conjunction with ECG and other biometric data for activity labeling in the wild with unlabelled data."
+        ],
+        "technologies_used": "Weak Supervision, Quadratic Regression, Linear Interpolation, Unsupervised Learning, ETL",
+        "link": "https://github.com/jaredap1995/Signal-Processing-and-Alignment#signal-processing-and-alignmen"
+      }
+    ]
+  }
+  

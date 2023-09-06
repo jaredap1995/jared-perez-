@@ -1,0 +1,49 @@
+@import '@variables';
+
+
+.blogContainer{
+  padding-top: 100px;
+  padding-bottom: 50px;
+  position: relative;
+
+  .blog {
+    position: relative;
+    font-size: large;
+
+    .verticalLine {
+      position: absolute;
+      left: 12%;
+      background: $primary-purple;
+      width: 2px;
+      height: 100%;
+    }
+
+    ul {
+      list-style-type: none;
+
+      li {
+        .title {
+          display: block;
+          font-size: 1.2rem;
+          font-weight: $font-semi-bold;
+          color: black;
+          text-decoration: none;
+        }
+
+        time {
+          display: block;
+          color: $subtle-grey;
+          font-weight: $font-semi-bold;
+          margin-bottom: 8px;
+        }
+
+        .description {
+          font-size: 1rem;
+          margin-bottom: 40px;
+          color: $primary-grey;
+        }
+
+      }
+    }
+  }
+}

@@ -1,0 +1,83 @@
+@import '@variables';
+
+.header {
+  width: 1017px;
+  margin: 108px auto;
+
+  h1 {
+    font-size: 3rem;
+  }
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 1ch;
+    }
+  }
+  .char {
+    display: inline-block;
+    width: 0;
+    white-space: pre;
+    overflow: hidden;
+    vertical-align: bottom;
+    animation: typing 0.5s steps(1) forwards var(--delay);
+  }
+}
+
+.aboutMe {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  width: 1017px;
+  margin: 0 auto 32px auto;
+
+  h2 {
+    font-size: 2rem;
+    font-weight: $font-semi-bold;
+    margin-bottom: 8px;
+  }
+
+  p {
+    line-height: 1.41;
+  }
+}
+
+.aboutMe.visible {
+  opacity: 1;
+}
+
+@media screen and (min-width: $desktop-break) {
+  .header {
+    width: 1017px;
+    margin: 108px auto;
+  }
+
+  .aboutMe {
+    width: 1017px;
+    margin: 0 auto 32px auto;
+  }
+}
+
+@media screen and (min-width: $mobile-break) and (max-width: $desktop-break) {
+  .header {
+    width: auto;
+    margin: 108px 0px;
+  }
+
+  .aboutMe {
+    width: auto;
+    margin-bottom: 32px;
+  }
+}
+
+@media screen and (max-width: $mobile-break) {
+  .header {
+    width: auto;
+    margin: 108px 12px;
+  }
+
+  .aboutMe {
+    width: auto;
+    margin: 0 12px 32px 12px;
+  }
+}

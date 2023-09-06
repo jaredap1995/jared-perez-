@@ -1,0 +1,37 @@
+@import '@variables';
+
+.title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.paperContainer {
+  .paperTitle {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: $font-semi-bold;
+    color: black;
+    text-decoration: none;
+  }
+
+  .description {
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .authors {
+    font-size: 1rem;
+    padding-bottom: 10px;
+  }
+
+  .summary {
+    font-size: 1rem;
+    margin-bottom: 40px;
+  }
+
+  .linkStyle {
+    display: inline-flex;
+    padding-top: 5px;
+    padding-bottom: 20px;
+  }
+}

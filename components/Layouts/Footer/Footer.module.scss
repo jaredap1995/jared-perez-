@@ -1,0 +1,64 @@
+@import '@variables';
+
+$primary-purple: #6C41A6;
+
+.footer {
+  height: $footer-height;
+  color: white;
+  background: linear-gradient(180deg, white, $primary-purple);
+  padding: 75px 12px 40px 12px;
+  text-align: center;
+  // box-shadow: 0px -5px 15px rgba(0,0,0,0.1);
+
+  .details {
+    .name {
+      color: black;
+      font-size: 2rem;
+      margin-bottom: 15px;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.2);
+    }
+
+    .link {
+      color: black;
+      text-decoration: none;
+      border-bottom: 2px solid transparent;
+      transition: border-color 0.3s ease-in-out;
+
+      &:hover {
+        border-color: white;
+      }
+    }
+
+
+  }
+
+  .socialMediaLinks {
+    padding-top: 40px;
+
+    .linkHolder {
+      list-style: none;
+
+      .item {
+        width: 40px;
+        height: 40px;
+        display: inline-block;
+        font-size: 2.5rem;
+        transition: transform 0.3s ease-in-out;
+
+        .link {
+          color: black;
+          transition: color 0.3s ease-in-out;
+        }
+
+        &:not(:last-child) {
+          margin-right: 40px;
+        }
+
+        &:hover {
+          transform: scale(1.1);
+        }
+
+      }
+    }
+  }
+}

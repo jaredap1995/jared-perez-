@@ -1,0 +1,80 @@
+@import '@variables';
+
+$primary-purple: #6C41A6;
+
+.navigation {
+  width: 100%;
+  height: $navbar-height;
+  padding-top: 24px;
+  display: flex;
+  // font-weight: $font-semi-bold; 
+  justify-content: space-between;
+  background: linear-gradient(0deg, white, $primary-purple); // Gradient background to match the footer
+  // box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); // Shadow for depth
+
+  ul {
+    margin-top: 16px;
+
+    li {
+      display: inline-block;
+      font-size: 1.4rem; // Slightly increasing the font size
+
+      .navLink {
+        text-decoration: none;
+        padding: 8px 12px; // Adding padding for better hover effect
+        border-radius: 8px; // Rounded corners for hover effect
+        transition: background-color 0.3s ease-in-out; // Smooth transition
+
+        &:visited {
+          color: black; // Maintaining the white color
+        }
+
+        &:hover,
+        &:active {
+          background-color: rgba(0, 0, 0, 0.2); // Hover effect: slight background
+        }
+      }
+
+      &:not(:last-child) {
+        margin-right: 24px;
+      }
+    }
+  }
+
+  .icon {
+    margin-right: auto;
+    font-size: 1.5rem; // Slightly increasing the icon size
+    transition: transform 0.3s ease-in-out; // Hover transition
+    
+
+    &:hover {
+      cursor: pointer;
+      transform: scale(1.1); // Hover effect: icon gets slightly bigger
+    }
+  }
+}
+
+@media screen and (min-width: $desktop-break) {
+  .navigation {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: $mobile-break) and (max-width: $desktop-break) {
+  .navigation {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: $mobile-break) {
+  .navigation {
+    margin: 0;
+    width: 100%;
+
+    ul {
+      margin-right: 8px;
+    }
+  }
+}

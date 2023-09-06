@@ -1,0 +1,189 @@
+@import '@variables';
+
+
+.information {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+
+  .resumeTitle {
+    margin-bottom: 8px;
+  }
+
+  .pRel {
+    position: relative;
+  }
+
+  .experience {
+    &:not(:first-child) {
+      margin-top: 20px;
+    }
+  }
+
+  .Education {
+    margin-bottom: 20px;
+}
+
+  .borderBottom {
+    margin-bottom: 32px;
+  }
+
+  .sectionInfo {
+    // display: flex;
+    // justify-content: space-between;
+    width: 79%;
+
+    .overviewContainer {
+      display: inline-block;
+
+      .overviewHeader {
+        font-size: 1.2rem;
+        margin-bottom: 3px;
+      }
+
+      ul {
+        list-style: none;
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+
+        li {
+          width: 50%;
+        }
+      }
+
+      &:not(:last-child) {
+        margin-right: 62px;
+      }
+    }
+
+    .sectionProjects {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      
+      h3{
+        margin-bottom: 10px;
+      }
+    }
+
+    .sectionInfoHeader {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+
+      h3 {
+        font-size: 1.2rem;
+        font-weight: $font-semi-bold;
+      }
+
+      h4 {
+        color: $subtle-grey;
+        font-size: 1rem;
+        font-weight: $font-semi-bold;
+      }
+
+      &:not(:first-child) {
+        margin-top: 16px;
+      }
+    }
+
+    .sectionInfoDates {
+      font-size: 1rem;
+      display: inline-block;
+    }
+
+    .sectionInfoPoints {
+      margin-top: 20px;
+      margin-left: 16px;
+
+      li {
+        line-height: 1.41;
+
+        &:not(:first-child) {
+          margin-top: 3px;
+        }
+      }
+    }
+  }
+
+  .verticalLine {
+    position: absolute;
+    left: 18%;
+    background: $primary-purple;
+    width: 2px;
+    height: 100%;
+  }
+}
+
+.information.visible {
+  opacity: 1;
+}
+
+@media screen and (min-width: $desktop-break) {
+  .information {
+    width: 1017px;
+    margin: 0 auto;
+
+    .sectionInfo {
+      width: auto;
+      .overviewContainer {
+        width: 20%;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: $mobile-break) and (max-width: $desktop-break) {
+  .information {
+    .sectionInfo {
+      width: auto;
+      .overviewContainer {
+        width: 180px;
+
+        ul {
+          width: 180px;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: $mobile-break) {
+  .information {
+    margin: 0 12px;
+
+    .sectionInfo {
+      width: auto;
+      display: block;
+
+      .sectionInfoHeader {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+      }
+
+      .sectionInfoDates {
+        display: block;
+        font-size: 1rem;
+        margin-top: 4px;
+      }
+
+      .overviewContainer {
+        display: block;
+        margin-bottom: 8px;
+
+        ul {
+          width: 180px;
+        }
+
+        &:not(:last-child) {
+          margin-right: 0px;
+        }
+      }
+    }
+
+    .verticalLine {
+      display: none;
+    }
+  }
+}
