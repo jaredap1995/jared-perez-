@@ -1,0 +1,35 @@
+@import '@variables';
+
+@media screen and (min-width: $mobile-break) {
+  .leftColumn {
+    box-sizing: border-box;
+    padding: 0 10px; //
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .middleColumn {
+    box-sizing: border-box;
+  padding: 0 10px; //
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .rightColumn {
+    box-sizing: border-box;
+  padding: 0 10px; //
+    width: 33%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+@media screen and (max-width: $mobile-break) {
+  .leftColumn {
+    margin-bottom: 12px;
+    font-size: 1.2rem;
+    vertical-align: top;
+  }
+}

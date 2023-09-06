@@ -113,6 +113,15 @@
     width: 2px;
     height: 100%;
   }
+
+  .verticalLine2 {
+    position: absolute;
+    right: 45%;
+    background: $primary-purple;
+    width: 2px;
+    height: 100%;
+  }
+
 }
 
 .information.visible {

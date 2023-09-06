@@ -1,6 +1,5 @@
 @import '@variables';
 
-$primary-purple: #6C41A6;
 
 .footer {
   height: $footer-height;
@@ -8,7 +7,6 @@ $primary-purple: #6C41A6;
   background: linear-gradient(180deg, white, $primary-purple);
   padding: 75px 12px 40px 12px;
   text-align: center;
-  // box-shadow: 0px -5px 15px rgba(0,0,0,0.1);
 
   .details {
     .name {

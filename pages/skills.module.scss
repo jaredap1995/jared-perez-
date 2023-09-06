@@ -1,0 +1,76 @@
+@import '@variables';
+
+.information {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  
+    .Title {
+      margin-bottom: 8px;
+    }
+  
+    .pRel {
+      position: relative;
+    } 
+  
+    .borderBottom {
+      margin-bottom: 32px;
+    }
+    .sectionInfo {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); // Adjusts based on content and container width
+        gap: 10px; 
+      
+        h3 {
+          grid-column: span 2; 
+        //   text-align: center;
+        padding-left: 25px;
+          margin: 0;
+        }
+      
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style-type: none;
+        }
+      
+        li {
+          padding: 5px;
+          border-radius: 4px;
+          text-align: center; // Center content if using logos
+      
+          img {
+            max-width: 100px; // Set a max width and height for logos
+            max-height: 100px;
+            margin: 0 auto; // Center the logos
+          }
+      
+          &:hover {
+            background-color: #f4f4f4; 
+          }
+        }
+      
+    .borderBottom {
+        margin-bottom: 32px;
+      }
+  }
+}
+
+.verticalLine {
+    position: absolute;
+    left: 25%;
+    background: $primary-purple;
+    width: 2px;
+    height: 100%;
+  }
+
+  .verticalLine2 {
+    position: absolute;
+    right: 40%;
+    background: $primary-purple;
+    width: 2px;
+    height: 100%;
+  }
+
+.information.visible {
+    opacity: 1;
+  }

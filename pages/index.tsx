@@ -2,6 +2,7 @@ import Head from 'next/head';
 
 import Introduction from './Introduction';
 import Resume_2 from './resume_2';
+import Skills from './skills';
 
 
 export default function Home() {
@@ -25,6 +26,7 @@ export default function Home() {
       </Head>
 
       <Introduction></Introduction>
+      <Skills></Skills>
       <Resume_2></Resume_2>
     </>
   );

@@ -149,6 +149,8 @@ const Projects = ({ projects }: ProjectsProps) => {
 
 
 
+
+
 const Resume_2 = () => {
     const [isVisible, ref] = fadeInOnScroll();
 
@@ -177,7 +179,7 @@ const Resume_2 = () => {
 
                 <TwoColumn 
                     className={styles.borderBottom}
-                    leftColumn = {<span> Projects </span>}
+                    leftColumn = {<span id='projects'> <strong> Projects </strong></span>}
                     rightColumn = {Resume_2Data.Projects.map (( proj, index ) => (
                         <Projects key = {index} projects={proj}></Projects>
                     ))}

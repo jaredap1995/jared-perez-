@@ -10,6 +10,7 @@ const Navigation = () => {
   const router = useRouter();
 
   const resumeLink = router.pathname === '/' ? "#resume" : '/#resume';
+  const projectsLink = router.pathname == '/' ? '#projects' : '/#projects'
 
   return (
     <nav className={styles.navigation}>
@@ -26,6 +27,11 @@ const Navigation = () => {
         <li>
           <Link href = {resumeLink}>
             <a className={styles.navLink}>Resume</a>
+          </Link>
+        </li>
+        <li>
+          <Link href={projectsLink}>
+            <a className={styles.navLink}>Projects</a>
           </Link>
         </li>
         <li>
