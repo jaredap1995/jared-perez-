@@ -7,14 +7,10 @@ const withBundleAnalyzer = require ('@next/bundle-analyzer')({
   enabled: process.env.ANALYZE === 'true',
 });
 
-module.exports = [
-  withMDX({
+module.exports = withBundleAnalyzer(withImages(withMDX({
     pageExtensions: ['js', 'jsx', 'ts', 'tsx', 'md', 'mdx'],
-  }),
-  withBundleAnalyzer(withImages()),
-  {
     swcMinify: true,
-  },
-];
+  })));
+
 
 
