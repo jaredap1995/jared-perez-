@@ -5,12 +5,13 @@ import path from 'path';
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     if (req.method === 'POST') {
         const { title, author, content } = req.body;
+        const description = content.substring(0,100) + (content.length >100 ? '. . . ' : '');
     
 
         const mdxContent = `---
         title: ${title}
         author: ${author}
-        description: To be replaced later
+        description: ${description}
         created: ${new Date().toISOString()}
 ----
 

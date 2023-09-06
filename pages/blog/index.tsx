@@ -64,7 +64,7 @@ const index = ({ posts }: Posts) => {
       <div className={styles.blog}>
       <div className={styles.verticalLine}></div>
           <Head>
-            <title>The Blog</title>
+            <title>Blog</title>
           </Head>
             <TwoColumn
               leftColumn={<BlogTitle />}

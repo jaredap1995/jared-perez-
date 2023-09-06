@@ -34,11 +34,11 @@ const Navigation = () => {
             <a className={styles.navLink}>Projects</a>
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href="/blog">
             <a className={styles.navLink}>Blog</a>
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link href = "/research_papers">
             <a className={styles.navLink}>Papers</a>
