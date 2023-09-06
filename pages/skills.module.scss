@@ -78,6 +78,11 @@
 
 }
 
+@media(max-width: 768px) {
+  .verticalLine, .verticalLine2 {
+    display: none;
+  }
+}
 
 .information.visible {
     opacity: 1;
