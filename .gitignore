@@ -7,7 +7,11 @@
 
 # testing
 /coverage
+
+#Adding blog elements to gitignore until further notice
 pages/blog/
+/_blog-posts
+pages/admin.tsx
 
 # next.js
 /.next/
