@@ -5,6 +5,7 @@ const AdminPage = () => {
     const [title, setTitle] = useState('');
     const [author, setAuthor] = useState('');
     const [content, setContent] = useState('');
+    //
 
     useEffect(() => {
         const password = 'not_very_secure';
