@@ -5,31 +5,30 @@
   height: $navbar-height;
   padding-top: 24px;
   display: flex;
-  // font-weight: $font-semi-bold; 
   justify-content: space-between;
-  background: linear-gradient(0deg, white, $primary-purple); // Gradient background to match the footer
-  // box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); // Shadow for depth
+  background: linear-gradient(0deg, white, $primary-purple); 
 
   ul {
     margin-top: 16px;
 
     li {
       display: inline-block;
-      font-size: 1.4rem; // Slightly increasing the font size
+      font-size: 1.4rem; 
 
       .navLink {
         text-decoration: none;
-        padding: 8px 12px; // Adding padding for better hover effect
-        border-radius: 8px; // Rounded corners for hover effect
+        color: black;
+        padding: 8px 12px; 
+        border-radius: 8px; 
         transition: background-color 0.3s ease-in-out; // Smooth transition
 
         &:visited {
-          color: black; // Maintaining the white color
+          color: black; 
         }
 
         &:hover,
         &:active {
-          background-color: rgba(0, 0, 0, 0.2); // Hover effect: slight background
+          background-color: rgba(0, 0, 0, 0.2); 
         }
       }
 
@@ -41,8 +40,8 @@
 
   .icon {
     margin-right: auto;
-    font-size: 1.5rem; // Slightly increasing the icon size
-    transition: transform 0.3s ease-in-out; // Hover transition
+    font-size: 1.5rem; 
+    transition: transform 0.3s ease-in-out; // 
     
 
     &:hover {
