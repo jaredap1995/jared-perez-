@@ -12,7 +12,7 @@ export default function Home() {
         <meta charSet="utf-8" />
         <meta
           name="description"
-          content="Welcome to my website, portfolio, and blog"
+          content="Welcome to my website"
         />
         <meta
           name="keywords"
