@@ -57,6 +57,7 @@ const Introduction = () => {
 
           To learn more about my journey from exercise, sport, and coaching to data and enginerring. Check out the 'My Story' page.
         </p>
+        <a href="https://strong-eight.vercel.app/">To see some more of my work check out the following links</a>
       </div>
     </>
   );

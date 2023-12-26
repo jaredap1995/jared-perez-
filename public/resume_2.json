@@ -27,6 +27,29 @@
 ],
     "experience": [
       {
+        "company": "Data Science & Analytics Instructor",
+        "title": "UC Irvine (EdX Bootcamps)",
+        "startDate": "Aug 2023",
+        "endDate": "Present",
+        "responsibilities": [
+           "Teach a class of 30 students advanced data topics including Excel, Python, Google Cloud, Tableau, JavaScript, HTML/CSS, PostgreSQL, Spark, Microsoft Azure, API integrations, social media mining, and machine learning.",
+           "Proficiently utilize Git to maintain, update, and manage assignment and project repositories on GitHub."
+            ]
+      },
+      {
+        "company": "Data Scientist", 
+        "title": "Auckland University of Technology",
+        "startDate": "Jan 2021",
+        "endDate": "May 2023",
+        "responsibilities": [
+          "Spearheaded the development of AUT’s first ‘Human Digital Twin’ Project involving 3D human modeling, computational modeling, signal processing, anthropometric data analysis, and database management.", 
+          "Deployed ensemble Tensorflow model providing decision support to coaches reducing 8 hours of admin time per week.",
+          "Built an ML pipeline from electronic health records to improve patient outcomes with degenerative diseases.",
+          "Developed a data pipeline aimed at optimizing concussion patient processing using SQL and Python.",
+          "Built CNNs for computer vision applications to improve head trauma diagnosis using Tensorflow and PyTorch."
+        ]
+      },
+      {
         "company": "Owner",
         "title": "Jared Perez Bio-Analytics for Health and Performance",
         "startDate": "Jan 2021",
@@ -46,28 +69,17 @@
             ]
       },
       {
-        "company": "Data Science Researcher", 
-        "title": "Auckland University of Technology",
-        "startDate": "May 2022",
-        "endDate": "May 2023",
-        "responsibilities": [
-          "Spearheaded the development of AUT's first Human Digital Twin Project.",
-          "Developed high volume data pipelines to highlight reasons behind delayed processing time for 25% of ACC concussion patients.",
-          "Built deep learning CNNs to diagnose severity of head trauma and prioritize patient follow ups from imaging data.",
-          "Built LSTM-RNNs from electronic health records to predict hospital readmission causes."          
-        ]
-      },
-      {
-        "company": "Exercise Physiology and Redox Biology Researcher", 
+        "company": "Exercise Physiologist", 
         "title": "Auckland University of Technology",
         "startDate": "Jan 2021",
-        "endDate": "Oct 2022",
+        "endDate": "Oct 2021",
         "responsibilities": [
           "Investigated the role of ovarian hormone fluctutations throughout the menstrual cycle on exercise redox biology, exercise performance, and adaptations",
-          "Authored literature reviews focused on the role of exercise redox biology in health and disease and women's health",
+          "Authored 3 literature reviews focused on the role of exercise redox biology in health and disease and women's health",
           "Investigated physiological profiles of endurance athletes at High Performance Sport New Zealand as part of larger Sports Performance Research In New Zealand (SPRINZ) group.",
           "Profiled changes in ventilatory threshold during steady state endurance cycling before and after fatiguing sprints to optimize endurance prescriptions.",
-          "Coordinated research studies using various equipment including force plates, metabolic cart, and isokinetic dynamometer."
+          "Coordinated research studies using various equipment including force plates, metabolic cart, and isokinetic dynamometer.",
+          "Managed the human health and biochemistry research lab; collected blood samples, ran micro-assays, and anthropometric measurements as part of the human health and performance research group."
         ]
       },
       {
@@ -113,6 +125,17 @@
     ],
     "Projects":
     [
+      {
+        "title": "Major League Soccer Tracab Tactical Data Pipeline",
+        "impact": [
+          "Built a pipeline for processing and storing MLS league standard player performance data provided by optical tracking system Tracab.",
+          "All MLS games are recorded using Tracab proprietary software which tracks all player movement and produces JSON or ASCII files to breakdown tactical and physical player profiles",
+          "The pipeline streamlines the ETL process for this data from extracting via MLS provided API keys to loading into a MOngoDB style database for every player, in every game, across an entire season.",
+          "Critical player statitstics like distance traveled, top speed, time spent and distance at high velocity, team possesion, and player possesion times can all be calculated and easily stored via this pipeline"
+        ],
+        "technologies_used": "Python, SWE, SQL, Tensorflow, ETL, MongoDB, Javascript",
+        "link": "https://github.com/jaredap1995/MLS-TracPad"
+      },
       {
         "title": "Jared Perez Bio-Analytics Web Application",
         "impact": [
