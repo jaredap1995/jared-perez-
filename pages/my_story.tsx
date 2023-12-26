@@ -23,7 +23,7 @@ const Story: React.FC < { imageNames: string [] }> = ({ imageNames }) => {
 
     const textSections: React.ReactNode[] = [
         <>
-            I have been working in data science and engineering consistenly for about two years since mid 2021. I got my first exposure working in data analytics during my masters degree in England when I worked for the Premiership Newcastle Falcons Rugby Club. 
+            I have been working in data science and engineering consistenly for about three years since beginning of 2021. I have a total of 5 years of experience in data science, AI, engineering, and analytics across multiple domains including sport performance, health care, and academia. I got my first exposure working in data analytics during my masters degree in England when I worked for the Premiership Newcastle Falcons Rugby Club. 
             <br />
             <br />
             This role focused on extracting the plethora of player data that was collected from the players’ GPS sensors, force plates, velocity sensors etc. and organizing it to create specific player profiles. This was mainly done in excel and in collaboration with a team of fellow sport scientists. 
@@ -42,7 +42,7 @@ const Story: React.FC < { imageNames: string [] }> = ({ imageNames }) => {
             Unfortunately, this topic turned out to be too logistically challenging, so under the advice of world renowned biomechanist <Link href = 'https://academics.aut.ac.nz/patria.hume'> Dr. Patria Hume</Link> I turned my eyes to data science and web development within health and performance.
             <br />
             <br />
-            Partnering with Auckland Bioenginerring Institute, I hoped to find a way to use physiological data to individualize and optimize training routines, rehab protocols, hospital care, medical treatment, and behvarioal interventions. My ultimate goal was to build a <Link href = 'https://www.auckland.ac.nz/en/news/2023/05/03/How-digital-twins-will-revolutionise-health.html'> Human Digital Twin</Link>, which aimed to use ubiquitously available sensors like the ones found in our smartphones, wearables, computers, and home devices to simulate our responses to stress and ultimately predict both acute and longitudinal health, behavioral, and performance outcomes. This was a pretty herculean goal (as all PhD ideas usually are at first) and ultimately could not come to fruition due to layoffs at my university and a lack of funding. However, in this program my passion for data science, AI, and engineering was born!
+            Partnering with Auckland Bioengineering Institute, I hoped to find a way to use physiological data to individualize and optimize training routines, rehab protocols, hospital care, medical treatment, and behvarioal interventions. My ultimate goal was to build a <Link href = 'https://www.auckland.ac.nz/en/news/2023/05/03/How-digital-twins-will-revolutionise-health.html'> Human Digital Twin</Link>, which aimed to use ubiquitously available sensors like the ones found in our smartphones, wearables, computers, and home devices to simulate our responses to stress and ultimately predict both acute and longitudinal health, behavioral, and performance outcomes. This was a pretty herculean goal (as all PhD ideas usually are at first) and ultimately could not come to fruition due to layoffs at my university and a lack of funding. However, in this program my passion for data science, AI, and engineering was born!
         </>
         ,
         <>

@@ -50,14 +50,16 @@ const Introduction = () => {
         <p>
           Hey there! Thank you for dropping by! My name is Jared Perez and I am a data scientist, engineer,
           exercise physiologist and sport scientist. 
-          In my free time I like walking dogs, learning new technical skills/working on new enginerring projects, olympic weightlifting, and jumping out of airplanes.
+          In my free time I like walking dogs, learning new technical skills/working on new engineering projects, olympic weightlifting, and jumping out of airplanes.
           I hope you enjoy exploring this webpage as much as I enjoyed making it and get to learn a little about me in the process.
           <br />
           <br />
 
-          To learn more about my journey from exercise, sport, and coaching to data and enginerring. Check out the 'My Story' page.
+          To learn more about my journey from exercise, sport, and coaching to data and engineering. Check out the 'My Story' page.
         </p>
-        <a href="https://strong-eight.vercel.app/">To see some more of my work check out the following links</a>
+        <br />
+        <br />
+        <a href="https://strong-eight.vercel.app/">See some more of my work</a>
       </div>
     </>
   );
