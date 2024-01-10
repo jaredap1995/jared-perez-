@@ -48,9 +48,9 @@ const Introduction = () => {
       <div className={`${styles.aboutMe} ${isVisible ? styles.visible: ''}`}>
         <h2>About</h2>
         <p>
-          Hey there! Thank you for dropping by! My name is Jared Perez and I am a data scientist, engineer,
+          Hey there! Thank you for dropping by! My name is Jared Perez and I am a data scientist, analyst, software engineer,
           exercise physiologist and sport scientist. 
-          In my free time I like walking dogs, learning new technical skills/working on new engineering projects, olympic weightlifting, and jumping out of airplanes.
+          In my free time I like walking dogs, learning new technical skills, working on new engineering projects, olympic weightlifting, and jumping out of airplanes.
           I hope you enjoy exploring this webpage as much as I enjoyed making it and get to learn a little about me in the process.
           <br />
           <br />
