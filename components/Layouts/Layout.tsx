@@ -3,6 +3,7 @@ import Footer from './Footer/Footer';
 import Navigation from './Navigation/Navigation';
 import styles from './Layout.module.scss';
 import { useRouter } from 'next/router';
+
 interface LayoutProps {
   children: React.ReactNode;
 }
