@@ -23,10 +23,10 @@ const Story: React.FC < { imageNames: string [] }> = ({ imageNames }) => {
 
     const textSections: React.ReactNode[] = [
         <>
-            I have been working in data science and engineering consistenly for about three years since beginning of 2021. I have a total of 5 years of experience in data science, AI, engineering, and analytics across multiple domains including sport performance, health care, and academia. I got my first exposure working in data analytics during my masters degree in England when I worked for the Premiership Newcastle Falcons Rugby Club. 
+            I have been working in data science and engineering consistenly for three years since beginning of 2021. I have a total of 5 years of experience in data science, AI, engineering, and analytics across multiple domains including sport performance, health care, and academia. I got my first exposure working in data analytics during my masters degree in England when I worked for the Premiership Newcastle Falcons Rugby Club. 
             <br />
             <br />
-            This role focused on extracting the plethora of player data that was collected from the players’ GPS sensors, force plates, velocity sensors etc. and organizing it to create specific player profiles. This was mainly done in excel and in collaboration with a team of fellow sport scientists. 
+            This role focused on extracting the plethora of player data that was collected from the players’ GPS sensors, force plates, velocity sensors etc. and organizing it to create specific player profiles. This was mainly done in excel, Tableau, and SQL and in collaboration with a team of fellow sport scientists. 
             <br />
             <br />
             In this role I got my first foray into data, simultaneously managing the team postgres instance and using excel to create visualizations to show coaches how the players were responding to their training programs. 
