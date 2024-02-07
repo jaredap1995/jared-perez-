@@ -8,7 +8,7 @@
     },
     {
         "college": "Auckland University of Technology",
-        "degree": "PhD in Data Science & Digital Health (Not Completed)",
+        "degree": "PhD in Bioengineering (Not Completed)",
         "startDate": "January 2021",
         "endDate": "July 2023 (Withdrawn)"
     },
@@ -26,6 +26,19 @@
       }
 ],
     "experience": [
+      {
+        "company": "Research Data Scientist",
+        "title": "John Hopkins University",
+        "startDate": "Dec 2023",
+        "endDate": "Present",
+        "responsibilities": [
+          "Build dynamic Tableau dashboards to represent organization data from both Airtable and Salesforce.",
+          "Build and maintain an ETL pipeline to clean and validate data prior to ingress into a Salesforce instance.",
+          "Built an NLP pipeline for analyzing qualitative responses from unstructured text data prior to storage in a Salesforce instance.",
+          "Built a Web Data Connector for linking AirTable to Tableau with Typescript and Taco toolkit.",
+          "Built a dynamic network graph GUI to track the career trajectories of Bloomberg Center program participants."
+            ]
+      },
       {
         "company": "Data Science & Analytics Instructor",
         "title": "UC Irvine (EdX Bootcamps)",
