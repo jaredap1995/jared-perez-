@@ -53,7 +53,7 @@ const Skills = () => {
                     rightColumn = {
                         <SkillsList
                         header = 'Data Science'
-                        languages={['Python', 'Tensoflow', 'PyTorch', 'Excel', 'Keras', 'Tableau', 'PowerBi']}
+                        languages={['Python', 'R', 'Tensoflow', 'PyTorch', 'Keras', 'Tableau', 'PowerBi', 'Shiny', 'Excel']}
                         />
                     }
                 />
